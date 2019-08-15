@@ -1,5 +1,5 @@
-# Description
+# Описание
 
-The main goal of this course is to teach C ++ idioms, that is, to show how to create elegant, efficient and reliable blocks of code using various features of the language. Together with the knowledge gained in the Red Belt, this will allow you to create not only fast and easily supported programs.
+Основная цель этого курса — научить идиомам языка C++, то есть показать, как с помощью различных возможностей языка создавать элегантные, эффективные и надёжные блоки кода. В совокупности со знаниями, полученными на «Красном поясе», это позволит вам создавать не только быстрые и легко поддерживаемые программы. 
 
-In addition, topics that did not fit into the scope of previous courses will be covered: namespaces and efficient use of associative containers.
+Кроме того, будут освещены темы, которые не поместились в объём предыдущих курсов: пространства имён и эффективное использование ассоциативных контейнеров.
