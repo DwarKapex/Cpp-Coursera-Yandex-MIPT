@@ -1,15 +1,10 @@
-int Factorial(int x) {
-    int result = 1;
-    for (int i = 2; i <= x; ++i) {
-        result *= i;
+bool IsPalindrom(string s) {
+    // Замечание: более правильным было бы использовать здесь тип size_t вместо int
+    // О причинах Вы узнаете на Жёлтом поясе
+    for (int i = 0; i < s.size() / 2; ++i) {
+        if (s[i] != s[s.size() - i - 1]) {
+            return false;
+        }
     }
-    return result;
-}
-
-int Factorial2(int x) {
-    if (x <= 1) {
-        return 1;
-    } else {
-        return x * Factorial(x - 1);  // вычисляем факториал от x-1 и умножаем на x
-    }
+    return true;
 }

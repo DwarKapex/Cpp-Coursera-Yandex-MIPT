@@ -1,17 +1,18 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
-int Factorial(int x){
-    int result = 1;
-    for (int i = 1; i <= x; ++i)
-        result *= i;
-    return result;
-       
+bool IsPalindrom(const string& str) {
+    size_t n = str.size();
+    size_t i = 0;
+    while (i < n/2 && str[i] == str[n-i-1]) {
+        ++i;
+    }
+    return i == n/2;
 }
 
 int main(){
-    int n=0;
-    cin >> n;
-    cout << Factorial(n) << endl;
-
+    string s;
+    cin >> s;
+    cout << IsPalindrom(s) << endl;
 }
