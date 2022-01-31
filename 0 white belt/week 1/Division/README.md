@@ -6,7 +6,8 @@ If B = 0, print "Impossible".
 
 # Example
 
-stdin        stdout
-10 2           5
-3 5            0
-11 0        Impossible
+|stdin|stdout|
+|-|-|
+|10 2|5|
+|3 5|0|
+|11 0|Impossible|

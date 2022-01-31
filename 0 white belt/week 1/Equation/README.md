@@ -4,11 +4,12 @@ The input of your program in the standard input contains the real coefficients A
 
 # Example
 
-stdin           stdout
-2 5 2            -0.5
-2 4 2            -2
-2 1 2            -1
-0 4 10           -2.5
+|stdin|           stdout|
+|-|-|
+|2 5 2|            -0.5|
+|2 4 2|            -2|
+|2 1 2|            -1|
+|0 4 10|           -2.5|
 
 # Hint
 

@@ -4,7 +4,8 @@ In the standard stream, three lines are given, separated by a space. Each line c
 
 # Examples
 
-stdin                         stdout
-milk milkshake month           milk
-c a b                          a
-fire fog wood                  fire
+|stdin   |                      stdout|
+|-|-|
+|milk milkshake month   |        milk|
+|c a b   |                       a|
+|fire fog wood   |              fire|

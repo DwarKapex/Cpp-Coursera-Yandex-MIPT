@@ -4,7 +4,8 @@ Given a string. Find in this line the second occurrence of the letter f and prin
 
 # Example
 
-stdin       stdout
-comfort      -1
-coffee        3
-car          -2
+|stdin  |     stdout|
+|-|-|
+|comfort   |   -1|
+|coffee |       3|
+|car    |      -2|

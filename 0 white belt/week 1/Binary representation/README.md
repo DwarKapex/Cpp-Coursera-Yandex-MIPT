@@ -4,10 +4,11 @@ The input is given a positive integer N. Output it in binary notation without le
 
 # Example
 
-stdin       stdout
-5           101
-32          100000
-1           1
+|stdin|stdout|
+|-|-|
+|5|101|
+|32|100000|
+|1|1|
 
 # Hint
 

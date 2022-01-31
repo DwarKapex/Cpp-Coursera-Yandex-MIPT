@@ -6,7 +6,8 @@ The standard input contains five real numbers, separated by a space: N, A, B, X,
 
 # Example
 
-stdin                   stdout
-100 110 120 5 10        100
-115 110 120 5 10        109.25
-150 110 120 5 12.5      131.25
+|stdin|stdout|
+|-|-|
+|100 110 120 5 10|100|
+|115 110 120 5 10|109.25|
+|150 110 120 5 12.5|131.25|
